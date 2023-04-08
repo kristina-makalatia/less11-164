@@ -1,0 +1,91 @@
+@media (max-width:1024px) {
+    .box {
+        width: 45%;   
+    }
+    .wraper {
+        row-gap: 50px;
+    }
+}
+
+@media (max-width:768px) {
+    .navigation {
+        display: none;
+    }
+    .burger-bar {
+        display: block;
+        color:#fff;
+        font-size: 25px;
+    }
+}
+
+@media (max-width:480px) {
+    .box {
+        width: 100%;
+    }
+}
+
+
+
+/* min width */
+@media (min-width:320px) and (max-width:768px){
+    .block {
+        background-color: red;
+        width: 100%;
+    }
+    .flex-box2 {
+        gap:50px;
+    }
+}
+
+@media (min-width: 769px) and (max-width:1024px) {
+    .block {
+        width:40%;
+    }
+    .flex-box2 {
+        justify-content: center;
+        gap:50px;
+    }
+}
+
+
+
+
+/* practice figma resposnive */
+@media (min-width:320px) and (max-width:480px) {
+   .flex-container {
+    flex-direction: column;
+    row-gap: 36px;
+   } 
+   .child-right-block:nth-child(2),
+   .child-right-block:nth-child(3) {
+    display: none;
+   }
+   .right-block {
+    width: 100%;
+   }
+   .left-block {
+    max-width: 779px;
+    width: 100%;
+    }
+}
+@media (min-width:481px) and (max-width:1024px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .child-right-block:nth-child(3) {
+        display: none;
+    }
+    .right-block {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .child-right-block:nth-child(1),
+    .child-right-block:nth-child(2) {
+        width: 48%;
+    }
+    .right-block,
+    .left-block{
+        width: 100%;
+    }
+}

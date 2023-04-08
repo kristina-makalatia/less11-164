@@ -1,0 +1,110 @@
+.bg-header {
+    background-image: url('../images/bgimage.jpg');
+    height: 754px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+}
+.flex-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ul-item {
+    display: flex;
+    width: 366px;
+    justify-content: space-between;
+}
+.ul-item li a {
+    color:#000;
+}
+.login {
+    width: 78px;
+    height: 40px;
+    background-color: #F84646;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.burger-bar {
+    display: none;
+}
+
+/* section#1 */
+.wraper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+.wraper2 {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.box-wraper2 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+}
+
+/* min width example */
+.flex-box2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block {
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+}
+
+
+/* practice figma */
+.container {
+    max-width:1179px;
+    width:90%;
+    margin:0 auto;
+    background-color: yellow;
+    column-gap: 20px;
+}
+.flex-container {
+    display: flex;
+    /* height: 886px; */
+}
+.left-block {
+   width: 779px;
+   display: flex;
+   flex-direction: column;
+   row-gap: 86px;
+
+}
+.right-block {
+    width:380px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 23px;
+}
+.child-right-block {
+    width: 100%;
+    height: 280px;
+    border:2px solid #000;
+}
+.child-block img,
+.child-right-block img {
+    width: 100%;
+}
+.child-block {
+    height: 400px;
+}
+.child-block img {
+    height: 100%;
+    object-fit: cover;
+}
